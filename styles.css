@@ -1,0 +1,47 @@
+* {
+  font-family: 'Gilroy',sans-serif;
+  transition: 0.3s all;
+    font-weight: 600;
+}
+#app {
+  margin: 100px auto;
+  width: 300px;
+  box-shadow: 0 3px 15px grey;
+}
+input[type="text"] {
+  outline: none;
+  height: 40px;
+  width: 100%;
+  border: 0;
+  color: #243849;
+  font-size: 25px;
+  padding: 5px 5px;
+  text-align: right;
+}
+.grid {
+  display: flex;                       
+  flex-wrap: wrap;  
+  justify-content: space-around;
+  width: 100%;
+  
+}
+.cell {
+  cursor: pointer;
+  outline: none;
+  flex: 33%;                       
+  height: 50px;
+  font-size: 18px;
+  border: none;
+}
+.num {
+  background-color: #243849;
+  color: #fff;
+  font-weight: 400;
+}
+.cell:hover{
+  background-color: #182530;
+}
+.op {
+  background-color: #ff9900;
+  color: #243849;
+}
